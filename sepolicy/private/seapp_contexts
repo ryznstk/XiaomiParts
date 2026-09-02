@@ -5,5 +5,5 @@ user=system seinfo=platform isPrivApp=true name=com.android.kprofiles    domain=
 user=system seinfo=platform isPrivApp=true name=com.android.panelorientation domain=parts_app type=system_app_data_file levelFrom=all
 user=system seinfo=platform isPrivApp=true name=com.android.thermal      domain=parts_app type=system_app_data_file levelFrom=all
 user=system seinfo=platform isPrivApp=true name=com.android.soundcontrol domain=parts_app type=system_app_data_file levelFrom=all
-user=system seinfo=platform isPrivApp=true name=com.grewal.notgamemode   domain=parts_app type=system_app_data_file levelFrom=all
+user=_app seinfo=platform isPrivApp=true name=com.grewal.notgamemode domain=parts_app type=system_app_data_file levelFrom=all
 user=system seinfo=platform isPrivApp=true name=com.android.touchservices domain=parts_app type=system_app_data_file levelFrom=all
