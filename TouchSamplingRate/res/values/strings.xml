@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">touchservice_app</string>
+
+    <string name="tile_on">On</string>
+    <string name="tile_off">Off</string>
+    <string name="search_apps">Search apps</string>
+
+    <string name="touch_sampling_title">Touch sampling</string>
+    <string name="touch_sampling_summary">Boost touch polling rate globally or for selected apps</string>
+    <string name="touch_sampling_enable_title">Enable touch sampling boost</string>
+    <string name="touch_sampling_enable_summary">Force high touch polling for all apps</string>
+    <string name="touch_sampling_auto_title">Auto-enable for selected apps</string>
+    <string name="touch_sampling_auto_summary">Apply touch sampling boost automatically for chosen foreground apps</string>
+    <string name="touch_sampling_apps_title">Per-app touch boost</string>
+    <string name="touch_sampling_apps_summary">Choose which apps should auto-enable touch sampling boost</string>
+    <string name="touch_sampling_description">Higher touch sampling lowers input latency and can make touch feel more responsive, especially in games. It may also increase battery usage.</string>
+    <string name="touch_sampling_not_supported">Touch sampling boost is not supported on this kernel or the touch node is missing.</string>
+</resources>

@@ -1,0 +1,6 @@
+prebuilt_etc {
+    name: "init.touchservice.rc",
+    src: "init.touchservice.rc",
+    sub_dir: "init",
+    vendor: true,
+}

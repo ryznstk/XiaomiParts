@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.android.touchservices">
+        <permission name="android.permission.GET_TASKS" />
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    </privapp-permissions>
+</permissions>

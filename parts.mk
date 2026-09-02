@@ -27,6 +27,10 @@ ifeq ($(TARGET_SUPPORTS_EDGEREJECTION),true)
 PRODUCT_PACKAGES += \
     PanelOrientation
 endif
+ifeq ($(TARGET_SUPPORTS_TOUCHSAMPLING),true)
+PRODUCT_PACKAGES += \
+    Touchservice
+endif
 ifeq ($(TARGET_SUPPORTS_SNDCTRL),true)
 PRODUCT_PACKAGES += \
     SoundControl
